@@ -17,10 +17,10 @@ a {
 }
 
 blockquote {
-  background-color: mix($background-color, $accent-color, 60%);
+  background-color: mix($background-color, $accent-color, 90%);
   border-left-color: $accent-color;
 }
-  
+
 /* ==========================================================================
    Site-wide
    ========================================================================== */
@@ -30,7 +30,7 @@ blockquote {
     color: $text-color;
   }
 }
-  
+
 .copyright {
   color: lighten($text-color, 35%);
   a {
@@ -180,11 +180,11 @@ td {
   border-bottom-color: $border-color;
 }
 
-  
+
 /* ==========================================================================
    NOTICE TEXT BLOCKS
    ========================================================================== */
-  
+
 /* Default notice */
 .notice {
   @include notice(lighten($base-color, 90%));
@@ -219,7 +219,7 @@ td {
 .notice--info {
   @include notice(mix(#fff, $info-color, 70%));
 }
-  
+
 /* ==========================================================================
    Accessibility Modules
    ========================================================================== */
